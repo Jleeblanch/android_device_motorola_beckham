@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_beckham.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_beckham-eng \
+    omni_beckham-userdebug \
+    omni_beckham-user

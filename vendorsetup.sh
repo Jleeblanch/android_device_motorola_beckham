@@ -1,2 +1,0 @@
-add_lunch_combo omni_beckham-eng
-add_lunch_combo omni_beckham-userdebug
