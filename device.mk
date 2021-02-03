@@ -21,7 +21,9 @@ $(call inherit-product-if-exists, vendor/motorola/beckham/beckham-vendor.mk)
 -include $(LOCAL_PATH)/vendor_prop.mk
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
